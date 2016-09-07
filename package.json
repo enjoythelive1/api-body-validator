@@ -1,0 +1,37 @@
+{
+  "name": "api-body-validator",
+  "version": "0.0.1",
+  "description": "Easily build powerful validators for objects to validate objects",
+  "main": "dist/index.js",
+  "dependencies": {
+    "core-js": "^2.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.6",
+    "gulp-clean": "^0.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "watch": "gulp watch",
+    "postinstall": "typings install",
+    "prepublish": "npm run build"
+  },
+  "author": "Fausto A Guerrero <enjoythelive1@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enjoythelive1/api-body-validator.git"
+  },
+  "keywords": [
+    "validator",
+    "object",
+    "api",
+    "validate"
+  ],
+  "bugs": {
+    "url": "https://github.com/enjoythelive1/api-body-validator/issues"
+  },
+  "homepage": "https://github.com/enjoythelive1/api-body-validator#readme"
+}
